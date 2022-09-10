@@ -167,7 +167,7 @@ impl ColorPalette {
         let foreground = colors[249]; // Grey70
         let background = colors[AnsiColor::Black as usize];
 
-        let cursor_bg = RgbColor::new_8bpc(0x52, 0xad, 0x70).into();
+        let cursor_bg = colors[249];
         let cursor_border = RgbColor::new_8bpc(0x52, 0xad, 0x70).into();
         let cursor_fg = colors[AnsiColor::Black as usize].into();
 
